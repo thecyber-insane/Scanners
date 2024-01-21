@@ -1,6 +1,6 @@
-# InsaneReconScan
+# TCIrecscan
 
-InsaneRecScan.sh is a bash script that automates the process of performing an insane reconnaissance scan on a target domain. It utilizes various tools like Nmap, Gobuster, Nikto, and WhatWeb to gather information about open ports, directories, and vulnerabilities.
+TCIrecscan.sh is a bash script that automates the process of performing an insane reconnaissance scan on a target domain. It utilizes various tools like Nmap, Gobuster, Nikto, and WhatWeb to gather information about open ports, directories, and vulnerabilities.
 
 ## Prerequisites
 
@@ -11,11 +11,11 @@ InsaneRecScan.sh is a bash script that automates the process of performing an in
 
 ## Usage
 
-1. Clone the repository or download the InsaneReconScan.sh script.
-2. Make the script executable: `chmod +x InsaneReconScan.sh`
-3. Run the script with the target domain as an argument: `./InsaneReconScan.sh <Domain>`
+1. Clone the repository or download the TCIrecscan.sh script.
+2. Make the script executable: `chmod +x TCIrecscan.sh`
+3. Run the script with the target domain as an argument: `./TCIrecscan.sh <Domain>`
 
-Example: `./InsaneReconScan.sh example.com`
+Example: `./TCIrecscan.sh example.com`
 
 ## Explanation of the Script
 
@@ -47,7 +47,3 @@ Contributions are welcome! If you encounter any issues or have suggestions for i
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
-
-## Credits
-
-InsaneReconScan.sh is developed by Nithin Kumar. You can find the original script at [https://github.com/Nithin-X/InsaneReconScan](https://github.com/Nithin-X/InsaneReconScan).
