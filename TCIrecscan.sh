@@ -51,7 +51,7 @@ echo
 
 # Output files
 open_ports_file="open_ports.txt"
-vulnerabilities_file="vulnerabilities.txt"
+nmap_full_scan="nmap_full_scan.txt"
 directories_file="directories.txt"
 nikto_report="nikto_report.txt"
 whatweb_report="whatweb_report.txt"
@@ -63,7 +63,7 @@ echo "Open ports saved to $open_ports_file"
 
 # Run Nmap scan using the gathered open ports
 echo "Scanning with Nmap using the gathered open ports..."
-nmap -p "$(cat "$open_ports_file")" -A "$target" | tee "$vulnerabilities_file"
+nmap -p "$(cat "$open_ports_file")" -A "$target" | tee "$nmap_full_scan"
 
 # Run Gobuster to find directories
 echo "Scanning for directories with Gobuster..."
